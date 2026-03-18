@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio 2"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 04:10:11 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzYxMTsyMDI2LTAzLTE4OyIwNDowNjo1NiAiOzI0MjY="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYxMTsyMDI2LTAzLTE4OyIwNDoxMDoxMSAiOzE7MjUyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor A&quot;" newline="True"/>
+            <input variable="A"/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor B&quot;" newline="True"/>
+            <input variable="B"/>
+            <declare name="Soma" type="Integer" array="False" size=""/>
+            <assign variable="Soma" expression="A+B"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="notas e m&#233;dia"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 03:55:29 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzYxMTsyMDI2LTAzLTE4OyIwMjowNTo1MSAiOzI0MTg="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYxMTsyMDI2LTAzLTE4OyIwMjo1NTowMyAiOzE7STFENDZCO0VDRlA1MDdEMTI2MzYxMTsyMDI2LTAzLTE4OyIwMTo0NjoxMyAiO3Jldmlzw6NvLmZwcmc7NjQzNA=="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYxMTsyMDI2LTAzLTE4OyIwMzo1NToyOSAiOzE7MjUzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual sua nota A? &quot;" newline="True"/>
+            <input variable="A"/>
+            <declare name="B" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual sua B? &quot;" newline="True"/>
+            <input variable="B"/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <assign variable="soma" expression="A+B"/>
+            <declare name="valor" type="Real" array="False" size=""/>
+            <assign variable="valor" expression="A+B"/>
+            <declare name="M&#233;dia" type="Real" array="False" size=""/>
+            <assign variable="M&#233;dia" expression="valor/2"/>
+        </body>
+    </function>
+</flowgorithm>
